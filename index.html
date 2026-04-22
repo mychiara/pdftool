@@ -1,0 +1,878 @@
+<!doctype html>
+<html lang="id">
+    <title>Mas Andy PDF Tools - Editor PDF Online Gratis: Gabung, Pisah & Kompres</title>
+    <meta name="description" content="Alat PDF gratis terlengkap untuk Gabung, Pisah, Kompres, OCR, Tanda Tangan, dan Konversi PDF. Tanpa instalasi, 100% aman di browser Anda. Alternatif iLovePDF & SmallPDF terbaik." />
+    <meta name="keywords" content="PDF tool, ganti PDF, edit PDF online, gabung PDF, pisah PDF, kompres PDF, PDF ke Word OCR, Image to PDF, Tanda Tangan PDF, Unlock PDF, Mas Andy Digital" />
+    <link rel="canonical" href="https://toolpdf.masandigital.com" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://toolpdf.masandigital.com" />
+    <meta property="og:title" content="Mas Andy PDF Tools - Solusi PDF Online Terlengkap & Gratis" />
+    <meta property="og:description" content="Kelola dokumen PDF Anda dengan cepat: Gabung, Pisah, Kompres, dan OCR. Tanpa bayar, tanpa batas." />
+    <meta property="og:image" content="https://toolpdf.masandigital.com/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://toolpdf.masandigital.com" />
+    <meta property="twitter:title" content="Mas Andy PDF Tools - Solusi PDF Online Terlengkap & Gratis" />
+    <meta property="twitter:description" content="Kelola dokumen PDF Anda dengan cepat: Gabung, Pisah, Kompres, dan OCR. Tanpa bayar, tanpa batas." />
+    <meta property="twitter:image" content="https://toolpdf.masandigital.com/og-image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://toolpdf.masandigital.com/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- SEO Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Mas Andy PDF Tools",
+      "operatingSystem": "All",
+      "applicationCategory": "MultimediaApplication",
+      "description": "Full-featured PDF management toolset for merging, splitting, compressing and OCR processing PDF documents online.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+  <body>
+    <!-- Premium Loader -->
+    <div id="loader" class="hidden">
+      <div class="spinner"></div>
+      <p>Memproses dokumen Anda...</p>
+    </div>
+
+    <div class="container">
+
+
+      <div class="app-container" style="margin-top: 2rem;">
+        <!-- Modern Sidebar -->
+        <aside class="sidebar">
+          <div class="sidebar-brand">
+            <div style="display: flex; align-items: center; gap: 12px; flex: 1;">
+              <i class="fas fa-file-shield"></i>
+              <span class="brand-title">PDF Suite V3</span>
+            </div>
+            <button id="theme-toggle" class="theme-btn" style="background: none; border: none; cursor: pointer; color: #94a3b8; font-size: 1.2rem;">
+              <i class="fas fa-moon"></i>
+            </button>
+          </div>
+          <nav class="sidebar-nav tool-navigation">
+            <button class="tab-btn active" data-tab="home-dashboard">
+              <i class="fas fa-home"></i> <span>Beranda</span>
+            </button>
+            <div class="sidebar-divider">ALAT PDF</div>
+            <button class="tab-btn" data-tab="merge-tool">
+              <i class="fas fa-layer-group" style="color: #ff4c4c;"></i> <span>Gabung PDF</span>
+            </button>
+            <button class="tab-btn" data-tab="split-tool">
+              <i class="fas fa-scissors" style="color: #ff9933;"></i> <span>Pisah PDF</span>
+            </button>
+            <button class="tab-btn" data-tab="compress-tool">
+              <i class="fas fa-compress-alt" style="color: #33cc33;"></i> <span>Kompres PDF</span>
+            </button>
+            <button class="tab-btn" data-tab="to-image-tool">
+              <i class="fas fa-image" style="color: #3399ff;"></i> <span>PDF ke Gambar</span>
+            </button>
+            <button class="tab-btn" data-tab="image-to-pdf-tool">
+              <i class="fas fa-file-image" style="color: #9933ff;"></i> <span>Gambar ke PDF</span>
+            </button>
+            <button class="tab-btn" data-tab="rotate-tool">
+              <i class="fas fa-redo-alt" style="color: #ff3399;"></i> <span>Putar PDF</span>
+            </button>
+            <button class="tab-btn" data-tab="organize-tool">
+              <i class="fas fa-th" style="color: #6666ff;"></i> <span>Atur Halaman</span>
+            </button>
+            <button class="tab-btn" data-tab="watermark-tool">
+              <i class="fas fa-stamp" style="color: #ffcc00;"></i> <span>Tanda Air</span>
+            </button>
+            <button class="tab-btn" data-tab="esign-tool">
+              <i class="fas fa-signature" style="color: #00ccff;"></i> <span>Tanda Tangan</span>
+            </button>
+            <button class="tab-btn" data-tab="scan-tool">
+              <i class="fas fa-camera" style="color: #10b981;"></i> <span>Scan ke PDF</span>
+            </button>
+            <button class="tab-btn" data-tab="pdf-to-word-tool">
+              <i class="fas fa-file-word" style="color: #4488ff;"></i> <span>PDF ke Word</span>
+            </button>
+            <button class="tab-btn" data-tab="unlock-tool">
+              <i class="fas fa-unlock-alt" style="color: #ff5555;"></i> <span>Buka Kunci</span>
+            </button>
+            <button class="tab-btn" data-tab="grayscale-tool">
+              <i class="fas fa-adjust" style="color: #777777;"></i> <span>Mode Abu-abu</span>
+            </button>
+            <button class="tab-btn" data-tab="metadata-tool">
+              <i class="fas fa-eraser" style="color: #888888;"></i> <span>Metadata</span>
+            </button>
+            <button class="tab-btn" data-tab="repair-tool">
+              <i class="fas fa-heart-medical" style="color: #ff3333;"></i> <span>Perbaiki PDF</span>
+            </button>
+            <button class="tab-btn" data-tab="flatten-tool">
+              <i class="fas fa-vector-square" style="color: #555555;"></i> <span>Ratakan PDF</span>
+            </button>
+          </nav>
+        </aside>
+
+        <main class="main-content">
+        <!-- Home Dashboard -->
+        <div id="home-dashboard" class="tool-content active">
+          <div class="welcome-banner">
+             <h1>Mas Andy PDF Tools: Solusi Kelola PDF Lengkap & Gratis</h1>
+             <p>Semua yang Anda butuhkan untuk mengelola PDF dalam satu tempat.</p>
+             
+             <div class="search-container" style="margin-top: 2rem; max-width: 500px;">
+                <div style="position: relative;">
+                    <i class="fas fa-search" style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: var(--text-muted);"></i>
+                    <input type="text" id="tool-search" placeholder="Cari alat (misal: Gabung, Pisah...)" aria-label="Cari fitur PDF" style="width: 100%; padding: 12px 12px 12px 45px; border-radius: 12px; border: none; font-size: 1rem; box-shadow: var(--shadow-md); color: var(--text-main);" />
+                </div>
+             </div>
+          </div>
+          
+          <div class="tool-grid" id="main-tool-grid">
+            <div class="tool-card" onclick="switchTab('merge-tool')">
+              <i class="fas fa-layer-group" style="background: #fff0f0; color: #ff4c4c;"></i>
+              <h4>Gabung PDF</h4>
+              <p>Satukan beberapa PDF jadi satu file.</p>
+            </div>
+            <div class="tool-card" onclick="switchTab('split-tool')">
+              <i class="fas fa-scissors" style="background: #fff5eb; color: #ff9933;"></i>
+              <h4>Pisah PDF</h4>
+              <p>Pecah PDF atau ambil halaman tertentu.</p>
+            </div>
+            <div class="tool-card" onclick="switchTab('compress-tool')">
+              <i class="fas fa-compress-alt" style="background: #f0fdf4; color: #33cc33;"></i>
+              <h4>Kompres PDF</h4>
+              <p>Kecilkan ukuran file tanpa rusak kualitas.</p>
+            </div>
+            <div class="tool-card" onclick="switchTab('pdf-to-word-tool')">
+              <i class="fas fa-file-word" style="background: #ebf5ff; color: #4488ff;"></i>
+              <h4>PDF ke Word</h4>
+              <p>Ubah PDF hasil scan jadi Word (OCR).</p>
+            </div>
+            <div class="tool-card" onclick="switchTab('to-image-tool')">
+              <i class="fas fa-image" style="background: #f0f7ff; color: #3399ff;"></i>
+              <h4>PDF ke Gambar</h4>
+              <p>Ubah PDF jadi JPG atau PNG.</p>
+            </div>
+            <div class="tool-card" onclick="switchTab('image-to-pdf-tool')">
+              <i class="fas fa-file-image" style="background: #f5f0ff; color: #9933ff;"></i>
+              <h4>Gambar ke PDF</h4>
+              <p>Ubah foto/scan jadi satu PDF rapi.</p>
+            </div>
+            <div class="tool-card" onclick="switchTab('esign-tool')">
+              <i class="fas fa-signature" style="background: #e6faff; color: #00ccff;"></i>
+              <h4>Tanda Tangan</h4>
+              <p>Bubuhkan tanda tangan ke dokumen PDF.</p>
+            </div>
+            <div class="tool-card" onclick="switchTab('scan-tool')">
+              <i class="fas fa-camera" style="background: #f0fdf9; color: #10b981;"></i>
+              <h4>Scan ke PDF</h4>
+              <p>Scan dokumen fisik menggunakan kamera.</p>
+            </div>
+            <div class="tool-card" onclick="switchTab('watermark-tool')">
+              <i class="fas fa-stamp" style="background: #fffcf0; color: #ffcc00;"></i>
+              <h4>Tanda Air</h4>
+              <p>Tambahkan teks/logo pengaman.</p>
+            </div>
+            <div class="tool-card" onclick="switchTab('unlock-tool')">
+              <i class="fas fa-unlock-alt" style="background: #fff5f5; color: #ff5555;"></i>
+              <h4>Buka Kunci</h4>
+              <p>Hapus proteksi password PDF.</p>
+            </div>
+            <div class="tool-card" onclick="switchTab('rotate-tool')">
+              <i class="fas fa-redo-alt" style="background: #fff0f7; color: #ff3399;"></i>
+              <h4>Putar PDF</h4>
+              <p>Perbaiki orientasi halaman PDF.</p>
+            </div>
+            <div class="tool-card" onclick="switchTab('organize-tool')">
+              <i class="fas fa-th" style="background: #f0f0ff; color: #6666ff;"></i>
+              <h4>Atur Halaman</h4>
+              <p>Hapus atau susun ulang halaman.</p>
+            </div>
+            <div class="tool-card" onclick="switchTab('repair-tool')">
+              <i class="fas fa-heart-medical" style="background: #fff5f5; color: #ff3333;"></i>
+              <h4>Perbaiki PDF</h4>
+              <p>Pulihkan dokumen yang rusak.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="merge-tool" class="tool-content">
+          <div class="tool-header-block">
+             <h3>Gabungkan File PDF</h3>
+             <p>Satukan beberapa dokumen PDF menjadi satu file dengan urutan presisi.</p>
+          </div>
+          
+          <div class="file-upload-block" onclick="document.getElementById('merge-file-input').click()">
+            <i class="fas fa-layer-group"></i>
+            <span>Pilih atau Tarik File PDF</span>
+            <small>Mendukung banyak file sekaligus</small>
+            <input type="file" id="merge-file-input" accept=".pdf" multiple style="display: none;" />
+          </div>
+
+          <div id="merge-file-list-container">
+            <ul id="merge-file-list"></ul>
+          </div>
+          <button id="merge-btn" class="action-btn" disabled>
+            <i class="fas fa-magic"></i> Gabungkan Sekarang
+          </button>
+        </div>
+
+        <div id="split-tool" class="tool-content">
+          <div class="tool-header-block">
+             <h3>Pisahkan File PDF</h3>
+             <p>Ekstrak halaman atau bagi dokumen Anda menjadi bagian-bagian terpisah.</p>
+          </div>
+
+          <div class="file-upload-block" onclick="document.getElementById('split-file-input').click()">
+            <i class="fas fa-scissors"></i>
+            <span>Pilih File PDF untuk Dipisah</span>
+            <small>Pratinjau instan tersedia setelah pemilihan</small>
+            <input type="file" id="split-file-input" accept=".pdf" style="display: none;" />
+          </div>
+
+          <div id="split-preview-container">
+            <div class="split-controls">
+              <button id="split-select-all-btn" class="action-btn secondary">Pilih Semua</button>
+              <button id="split-deselect-all-btn" class="action-btn secondary">Batal Pilih</button>
+            </div>
+            <div id="split-page-grid"></div>
+          </div>
+          <div class="split-actions" style="display: flex; gap: 15px; margin-top: 20px;">
+            <button id="split-download-selected-btn" class="action-btn" disabled>
+              <i class="fas fa-download"></i> Simpan Halaman Terpilih
+            </button>
+            <button id="split-download-all-zip-btn" class="action-btn secondary" disabled>
+              <i class="fas fa-file-archive"></i> Unduh Semua (ZIP)
+            </button>
+          </div>
+        </div>
+
+        <div id="compress-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Kompres Ukuran PDF</h3>
+            <p>Optimalkan file Anda untuk pengiriman cepat tanpa mengurangi kejelasan dokumen.</p>
+          </div>
+
+          <div class="file-upload-block" onclick="document.getElementById('compress-file-input').click()">
+            <i class="fas fa-compress-alt"></i>
+            <span>Pilih PDF untuk Kompresi</span>
+            <small>Optimasi tingkat lanjut di browser</small>
+            <input type="file" id="compress-file-input" accept=".pdf" style="display: none;" />
+          </div>
+
+          <div class="pdf-options">
+            <div>
+              <label><i class="fas fa-sliders-h"></i> Strategi Kompresi</label>
+              <select id="compress-level-select">
+                <option value="medium">Sedang (Rekomendasi)</option>
+                <option value="low">Ringan (Kualitas Tinggi)</option>
+                <option value="high">Kuat (Ukuran Kecil)</option>
+                <option value="extreme">Ekstrim (Minimalis)</option>
+              </select>
+            </div>
+          </div>
+          <div id="compress-file-info"></div>
+          <button id="compress-btn" class="action-btn" disabled>
+            <i class="fas fa-magic"></i> Mulai Kompresi
+          </button>
+        </div>
+
+        <!-- Alat PDF ke Gambar -->
+        <div id="to-image-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Konversi ke Gambar</h3>
+            <p>Ubah setiap halaman PDF menjadi koleksi gambar JPG atau PNG berkualitas tinggi.</p>
+          </div>
+
+          <div class="file-upload-block" onclick="document.getElementById('to-image-file-input').click()">
+            <i class="fas fa-image"></i>
+            <span>Pilih PDF Sumber</span>
+            <small>Ekstrak gambar dalam sekejap</small>
+            <input type="file" id="to-image-file-input" accept=".pdf" style="display: none;" />
+          </div>
+
+          <div id="to-image-preview-container" style="display:none; margin-top: 2rem;">
+            <div class="to-image-controls" style="margin-bottom: 1.5rem;">
+              <div>
+                <label>Format Keluaran</label>
+                <select id="to-image-format-select">
+                  <option value="image/jpeg">JPEG (.jpg)</option>
+                  <option value="image/png">PNG (.png)</option>
+                </select>
+              </div>
+              <div id="to-image-quality-control">
+                <label>Kualitas: <span id="to-image-quality-value">85</span>%</label>
+                <input type="range" id="to-image-quality-slider" min="10" max="100" value="85" step="5" />
+              </div>
+            </div>
+            <div class="split-controls">
+              <button id="to-image-select-all-btn" class="action-btn secondary">Pilih Semua</button>
+              <button id="to-image-deselect-all-btn" class="action-btn secondary">Batal Pilih</button>
+            </div>
+            <div id="to-image-page-grid"></div>
+          </div>
+          <button id="to-image-download-btn" class="action-btn" disabled>
+            <i class="fas fa-download"></i> Unduh Halaman Terpilih
+          </button>
+        </div>
+
+        <div id="image-to-pdf-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Gabungkan Gambar ke PDF</h3>
+            <p>Ubah koleksi foto atau scan manual Anda menjadi satu dokumen PDF yang rapi.</p>
+          </div>
+
+          <div class="file-upload-block" onclick="document.getElementById('image-to-pdf-input').click()">
+            <i class="fas fa-file-image"></i>
+            <span>Pilih atau Tarik Gambar</span>
+            <small>JPG, PNG didukung</small>
+            <input type="file" id="image-to-pdf-input" accept="image/jpeg, image/png" multiple style="display: none;" />
+          </div>
+
+          <div class="pdf-options">
+            <div>
+              <label>Ukuran Halaman</label>
+              <select id="page-size-select">
+                <option value="A4">A4 (Standard)</option>
+                <option value="Letter">Letter (US)</option>
+              </select>
+            </div>
+            <div>
+              <label>Orientasi</label>
+              <select id="page-orientation-select">
+                <option value="portrait">Potret (Tegak)</option>
+                <option value="landscape">Lanskap (Mendatar)</option>
+              </select>
+            </div>
+          </div>
+          <div id="image-list-container">
+            <ul id="image-list"></ul>
+          </div>
+          <button id="convert-to-pdf-btn" class="action-btn" disabled>
+            <i class="fas fa-magic"></i> Buat PDF Sekarang
+          </button>
+        </div>
+
+        <div id="rotate-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Putar Halaman PDF</h3>
+            <p>Perbaiki orientasi halaman dokumen Anda secara visual.</p>
+          </div>
+          <div class="file-upload-block" onclick="document.getElementById('rotate-file-input').click()">
+            <i class="fas fa-undo-alt"></i>
+            <span>Pilih PDF Sumber</span>
+            <input type="file" id="rotate-file-input" accept=".pdf" style="display: none;" />
+          </div>
+          <div id="rotate-page-grid"></div>
+          <button id="rotate-process-btn" class="action-btn" disabled>
+            <i class="fas fa-save"></i> Terapkan & Unduh
+          </button>
+        </div>
+
+        <div id="organize-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Atur Ulang Halaman</h3>
+            <p>Kelola struktur dokumen Anda dengan seret dan lepas halaman.</p>
+          </div>
+          <div class="file-upload-block" onclick="document.getElementById('organize-file-input').click()">
+            <i class="fas fa-th"></i>
+            <span>Pilih PDF untuk Diatur</span>
+            <input type="file" id="organize-file-input" accept=".pdf" style="display: none;" />
+          </div>
+          <div id="organize-page-grid"></div>
+          <button id="organize-process-btn" class="action-btn" disabled>
+            <i class="fas fa-layer-group"></i> Simpan Struktur Baru
+          </button>
+        </div>
+
+        <div id="watermark-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Tanda Air (Watermark)</h3>
+            <p>Lindungi dokumen Anda dengan tanda air teks atau logo transparan.</p>
+          </div>
+
+          <div class="file-upload-block" onclick="document.getElementById('watermark-file-input').click()">
+            <i class="fas fa-stamp"></i>
+            <span>Pilih PDF Sumber</span>
+            <small>Dokumen akan tetap aman di browser</small>
+            <input type="file" id="watermark-file-input" accept=".pdf" style="display: none;" />
+          </div>
+
+          <div class="pdf-options">
+            <div style="grid-column: 1 / -1; display: flex; gap: 20px; margin-bottom: 10px;">
+              <label><input type="radio" name="watermark-type" value="text" checked> Teks</label>
+              <label><input type="radio" name="watermark-type" value="image"> Logo (Gambar)</label>
+            </div>
+            
+            <div id="watermark-text-options">
+              <label>Teks Tanda Air</label>
+              <input type="text" id="watermark-text-input" placeholder="DRAFT / RAHASIA" class="text-input" />
+            </div>
+
+            <div id="watermark-image-options" style="display:none;">
+              <label>Logo (.png / .jpg)</label>
+              <input type="file" id="watermark-image-input" accept="image/*" />
+            </div>
+
+            <div>
+              <label>Posisi</label>
+              <select id="watermark-position-select">
+                <option value="diagonal">Diagonal Tengah</option>
+                <option value="center">Tengah (Center)</option>
+                <option value="bottom-right">Pojok Bawah Kanan</option>
+                <option value="top-center">Atas Tengah</option>
+              </select>
+            </div>
+            
+            <div>
+              <label>Skala / Ukuran</label>
+              <input type="number" id="watermark-size-input" value="50" class="text-input" />
+            </div>
+
+            <div>
+              <label>Transparansi: <span id="watermark-opacity-value">0.5</span></label>
+              <input type="range" id="watermark-opacity-slider" min="0.1" max="1" value="0.5" step="0.1" />
+            </div>
+          </div>
+          <button id="watermark-process-btn" class="action-btn" disabled>
+            <i class="fas fa-magic"></i> Terapkan Tanda Air
+          </button>
+        </div>
+
+        <div id="numbering-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Nomor Halaman</h3>
+            <p>Sisipkan penomoran halaman otomatis dengan format kustom.</p>
+          </div>
+          <div class="file-upload-block" onclick="document.getElementById('numbering-file-input').click()">
+            <i class="fas fa-list-ol"></i>
+            <span>Pilih PDF</span>
+            <input type="file" id="numbering-file-input" accept=".pdf" style="display: none;" />
+          </div>
+          <div class="pdf-options">
+            <div>
+              <label>Format Teks</label>
+              <input type="text" id="numbering-format-input" value="Halaman {page} dari {total}" class="text-input" />
+            </div>
+            <div>
+              <label>Posisi</label>
+              <select id="numbering-position-select">
+                <option value="bottom-center">Bawah Tengah</option>
+                <option value="bottom-right">Bawah Kanan</option>
+                <option value="top-center">Atas Tengah</option>
+              </select>
+            </div>
+          </div>
+          <button id="numbering-process-btn" class="action-btn" disabled>
+            <i class="fas fa-plus-circle"></i> Tambahkan Nomor
+          </button>
+        </div>
+
+        <div id="protect-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Kunci Password (Enkripsi)</h3>
+            <p>Amankan dokumen sensitif Anda dengan enkripsi password yang kuat.</p>
+          </div>
+          <div class="file-upload-block" onclick="document.getElementById('protect-file-input').click()">
+            <i class="fas fa-shield-alt"></i>
+            <span>Pilih PDF untuk Dikunci</span>
+            <input type="file" id="protect-file-input" accept=".pdf" style="display: none;" />
+          </div>
+          <div class="pdf-options">
+            <div>
+              <label>Password Baru</label>
+              <input type="password" id="protect-password-input" class="text-input" placeholder="Min. 4 karakter" />
+            </div>
+            <div>
+              <label>Konfirmasi Password</label>
+              <input type="password" id="protect-confirm-password-input" class="text-input" />
+            </div>
+          </div>
+          <button id="protect-process-btn" class="action-btn" disabled>
+            <i class="fas fa-lock"></i> Kunci Dokumen
+          </button>
+        </div>
+
+        <!-- ALAT BARU: TANDA TANGAN ELEKTRONIK (E-SIGN) -->
+        <div id="esign-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Tanda Tangan Elektronik</h3>
+            <p>Sisipkan tanda tangan visual ke posisi tepat di dalam dokumen Anda.</p>
+          </div>
+          
+          <div class="pdf-options" style="grid-template-columns: 1fr 1fr; gap: 20px;">
+            <div class="file-upload-block" onclick="document.getElementById('esign-pdf-input').click()">
+              <i class="fas fa-file-pdf"></i>
+              <span>1. File PDF</span>
+              <input type="file" id="esign-pdf-input" accept=".pdf" style="display: none;" />
+            </div>
+            <div class="file-upload-block" onclick="document.getElementById('signature-image-input').click()">
+              <i class="fas fa-signature"></i>
+              <span>2. Tanda Tangan</span>
+              <input type="file" id="signature-image-input" accept="image/*" style="display: none;" />
+            </div>
+          </div>
+
+          <div id="esign-preview-wrapper" class="esign-preview-container" style="display:none; margin: 2rem 0;">
+            <p style="margin-bottom: 10px;"><small><i class="fas fa-mouse-pointer"></i> Klik lokasi bertanda tangan pada halaman:</small></p>
+            <div id="esign-interactive-preview" style="position: relative; display: inline-block; background: white; border: 1px solid var(--border); box-shadow: var(--shadow-lg);"></div>
+          </div>
+
+          <div class="pdf-options">
+            <div>
+              <label>Pilih Halaman</label>
+              <select id="esign-page-select" disabled></select>
+            </div>
+            <div>
+              <label>Ukuran Tanda Tangan (px)</label>
+              <input type="number" id="esign-size-input" value="150" class="text-input" />
+            </div>
+          </div>
+          <button id="esign-process-btn" class="action-btn" disabled>
+            <i class="fas fa-file-signature"></i> Proses Tanda Tangan
+          </button>
+        </div>
+
+        <div id="pdf-to-word-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>PDF ke Word (OCR)</h3>
+            <p>Konversi dokumen hasil scan menjadi dokumen Word yang dapat diedit sepenuhnya.</p>
+          </div>
+          <div class="file-upload-block" onclick="document.getElementById('pdf-to-word-input').click()">
+            <i class="fas fa-file-word"></i>
+            <span>Pilih PDF untuk OCR</span>
+            <input type="file" id="pdf-to-word-input" accept=".pdf" style="display: none;" />
+          </div>
+          <div class="pdf-options">
+            <div>
+              <label>Bahasa Sumber</label>
+              <select id="ocr-language-select">
+                <option value="ind">Indonesia</option>
+                <option value="eng">Inggris</option>
+              </select>
+            </div>
+          </div>
+          <div id="pdf-to-word-progress" style="display:none; margin-top: 2rem;">
+            <p id="pdf-to-word-status" style="margin-bottom: 5px; font-weight: 500;">Menyiapkan AI...</p>
+            <progress id="pdf-to-word-progress-bar" value="0" max="100" style="width: 100%; height: 10px; border-radius: 5px; overflow: hidden;"></progress>
+          </div>
+          <button id="pdf-to-word-process-btn" class="action-btn" disabled>
+            <i class="fas fa-robot"></i> Jalankan Konversi
+          </button>
+        </div>
+
+        <div id="unlock-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Buka Kunci Password</h3>
+            <p>Bebaskan file PDF Anda dari enkripsi dan pembatasan fitur.</p>
+          </div>
+          <div class="file-upload-block" onclick="document.getElementById('unlock-file-input').click()">
+            <i class="fas fa-unlock"></i>
+            <span>Pilih File Terkunci</span>
+            <input type="file" id="unlock-file-input" accept=".pdf" style="display: none;" />
+          </div>
+          <div class="pdf-options">
+             <div>
+               <label>Sandi Dokumen</label>
+               <input type="password" id="unlock-password-input" class="text-input" placeholder="..." />
+             </div>
+          </div>
+          <button id="unlock-process-btn" class="action-btn" disabled>
+            <i class="fas fa-key"></i> Hapus Proteksi
+          </button>
+        </div>
+
+        <div id="grayscale-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Mode Abu-abu (Grayscale)</h3>
+            <p>Ubah file PDF berwarna menjadi hitam putih untuk efisiensi cetak.</p>
+          </div>
+          <div class="file-upload-block" onclick="document.getElementById('grayscale-file-input').click()">
+            <i class="fas fa-adjust"></i>
+            <span>Pilih PDF Sumber</span>
+            <input type="file" id="grayscale-file-input" accept=".pdf" style="display: none;" />
+          </div>
+          <button id="grayscale-process-btn" class="action-btn" disabled>
+            <i class="fas fa-magic"></i> Konversi Sekarang
+          </button>
+        </div>
+
+        <div id="extract-text-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Ekstrak Teks Cepat</h3>
+            <p>Ambil semua teks yang ada di dalam PDF digital secara instan.</p>
+          </div>
+          <div class="file-upload-block" onclick="document.getElementById('extract-text-file-input').click()">
+            <i class="fas fa-file-alt"></i>
+            <span>Pilih PDF untuk Ekstraksi</span>
+            <input type="file" id="extract-text-file-input" accept=".pdf" style="display: none;" />
+          </div>
+          <div id="extracted-text-container" style="display:none; margin-top: 2rem;">
+            <textarea id="extracted-text-area" class="text-input" style="width:100%; height:250px; font-family: 'Courier New', monospace;" readonly></textarea>
+            <button id="copy-text-btn" class="action-btn secondary" style="margin-top: 10px;">
+               <i class="fas fa-copy"></i> Salin Teks
+            </button>
+          </div>
+        </div>
+
+        <div id="metadata-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Pembersih Metadata</h3>
+            <p>Hapus jejak digital (Author, Creator, Metadata) untuk anonimitas dokumen.</p>
+          </div>
+          <div class="file-upload-block" onclick="document.getElementById('metadata-file-input').click()">
+            <i class="fas fa-fingerprint"></i>
+            <span>Pilih PDF Sumber</span>
+            <input type="file" id="metadata-file-input" accept=".pdf" style="display: none;" />
+          </div>
+          <div id="metadata-info" class="pdf-options" style="display:none; flex-direction: column;">
+            <ul id="metadata-list" style="list-style: none; font-size: 0.9rem;"></ul>
+          </div>
+          <button id="metadata-process-btn" class="action-btn" disabled>
+            <i class="fas fa-eraser"></i> Bersihkan & Unduh
+          </button>
+        </div>
+
+        <div id="repair-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Perbaiki PDF Rusak</h3>
+            <p>Mencoba memulihkan file yang corrupt dengan membangun ulang struktur internal.</p>
+          </div>
+          <div class="file-upload-block" onclick="document.getElementById('repair-file-input').click()">
+            <i class="fas fa-heart-medical"></i>
+            <span>Pilih PDF Bermasalah</span>
+            <input type="file" id="repair-file-input" accept=".pdf" style="display: none;" />
+          </div>
+          <button id="repair-process-btn" class="action-btn" disabled>
+            <i class="fas fa-hammer"></i> Jalankan Perbaikan
+          </button>
+        </div>
+
+        <div id="flatten-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Ratakan PDF (Flatten)</h3>
+            <p>Kunci anotasi dan form agar tidak bisa diubah lagi oleh pihak lain.</p>
+          </div>
+          <div class="file-upload-block" onclick="document.getElementById('flatten-file-input').click()">
+            <i class="fas fa-layer-group"></i>
+            <span>Pilih PDF</span>
+            <input type="file" id="flatten-file-input" accept=".pdf" style="display: none;" />
+          </div>
+          <button id="flatten-process-btn" class="action-btn" disabled>
+            <i class="fas fa-object-ungroup"></i> Ratakan Sekarang
+          </button>
+        </div>
+
+        <div id="extract-images-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Ekstrak Gambar</h3>
+            <p>Ambil seluruh grafik dan foto yang tertanam di dalam dokumen PDF.</p>
+          </div>
+          <div class="file-upload-block" onclick="document.getElementById('extract-images-input').click()">
+            <i class="fas fa-images"></i>
+            <span>Pilih PDF</span>
+            <input type="file" id="extract-images-input" accept=".pdf" style="display: none;" />
+          </div>
+          <button id="extract-images-process-btn" class="action-btn" disabled>
+            <i class="fas fa-download"></i> Ekstrak & Simpan (.zip)
+          </button>
+        </div>
+
+        <!-- Scan to PDF Tool -->
+        <div id="scan-tool" class="tool-content">
+          <div class="tool-header-block">
+            <h3>Scan ke PDF</h3>
+            <p>Ambil foto dokumen fisik dan ubah langsung menjadi file PDF.</p>
+          </div>
+          
+          <div id="camera-container" style="position: relative; max-width: 640px; margin: 0 auto; border-radius: 16px; overflow: hidden; background: #000; display: none;">
+            <video id="scan-video" autoplay playsinline style="width: 100%; display: block;"></video>
+            <!-- Scanner Frame Guide -->
+            <div id="scanner-frame" style="position: absolute; inset: 40px; border: 2px solid rgba(255, 255, 255, 0.5); border-radius: 10px; pointer-events: none; box-shadow: 0 0 0 1000px rgba(0,0,0,0.3);">
+                <div style="position: absolute; top: -2px; left: -2px; width: 30px; height: 30px; border-top: 4px solid #10b981; border-left: 4px solid #10b981;"></div>
+                <div style="position: absolute; top: -2px; right: -2px; width: 30px; height: 30px; border-top: 4px solid #10b981; border-right: 4px solid #10b981;"></div>
+                <div style="position: absolute; bottom: -2px; left: -2px; width: 30px; height: 30px; border-bottom: 4px solid #10b981; border-left: 4px solid #10b981;"></div>
+                <div style="position: absolute; bottom: -2px; right: -2px; width: 30px; height: 30px; border-bottom: 4px solid #10b981; border-right: 4px solid #10b981;"></div>
+            </div>
+            <div style="position: absolute; bottom: 20px; left: 0; right: 0; display: flex; justify-content: center; gap: 1rem;">
+              <button id="capture-btn" class="action-btn" style="width: 60px; height: 60px; border-radius: 50%; padding: 0;">
+                <i class="fas fa-camera" style="font-size: 1.5rem;"></i>
+              </button>
+              <button id="stop-camera-btn" class="action-btn secondary" style="width: 60px; height: 60px; border-radius: 50%; padding: 0;">
+                <i class="fas fa-times" style="font-size: 1.5rem;"></i>
+              </button>
+            </div>
+          </div>
+
+          <div id="scan-init-block" class="file-upload-block">
+            <i class="fas fa-camera"></i>
+            <span>Buka Kamera Scan</span>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 1rem;">Klik untuk memberikan izin kamera.</p>
+          </div>
+
+          <div id="scan-preview-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 15px; margin-top: 2rem;">
+            <!-- Captures will appear here -->
+          </div>
+
+          <div id="scan-actions" style="display: none; margin-top: 2rem; flex-direction: column; gap: 1.5rem; align-items: center;">
+            <div style="display: flex; gap: 1rem; width: 100%; max-width: 500px;">
+              <div style="flex: 1;">
+                <label style="display: block; font-size: 0.8rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.5rem; text-align: left;">Nama File</label>
+                <input type="text" id="scan-filename" placeholder="scan_dokumen" class="text-input" />
+              </div>
+              <div style="width: 150px;">
+                <label style="display: block; font-size: 0.8rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.5rem; text-align: left;">Filter Efek</label>
+                <select id="scan-filter" class="text-input">
+                  <option value="none">Original</option>
+                  <option value="magic" selected>Magic Color (Cerah)</option>
+                  <option value="bw">B&W (Bersih)</option>
+                  <option value="grayscale">Abu-abu</option>
+                </select>
+              </div>
+            </div>
+            
+            <div style="display: flex; gap: 1rem; justify-content: center;">
+              <button id="scan-add-more" class="action-btn secondary">
+                <i class="fas fa-plus"></i> Tambah Foto
+              </button>
+              <button id="generate-scan-pdf-btn" class="action-btn">
+                <i class="fas fa-file-pdf"></i> Simpan Jadi PDF
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chained Task Success Pop-up -->
+        <div id="chained-task-container" class="chained-task-overlay">
+           <div class="tool-content" style="display: block; max-width: 450px; text-align: center;">
+               <div style="font-size: 3rem; color: #10b981; margin-bottom: 1rem;"><i class="fas fa-check-circle"></i></div>
+               <h3 style="margin-bottom: 0.5rem;">Berhasil Diproses!</h3>
+               <p style="color: var(--text-muted); margin-bottom: 2rem;">File Anda siap digunakan. Ingin melakukan tindakan lain?</p>
+               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                   <button class="action-btn secondary" onclick="switchTab('compress-tool')">Kompres PDF</button>
+                   <button class="action-btn secondary" onclick="switchTab('protect-tool')">Lindungi PDF</button>
+                   <button class="action-btn secondary" onclick="switchTab('esign-tool')">Tanda Tangan</button>
+                   <button class="action-btn" onclick="closeChainedTask()">Selesai</button>
+               </div>
+           </div>
+        </div>
+        <section class="seo-section">
+          <h2>Mas Andy PDF Tools: Solusi Cepat dan Mudah untuk Semua Kebutuhan PDF Anda</h2>
+          <p>Dapatkan kendali penuh atas dokumen Anda dengan platform manajemen PDF paling intuitif. Kami menyediakan berbagai fitur manipulasi PDF profesional tanpa biaya:</p>
+          <ul>
+            <li><strong>PDF ke Word (OCR)</strong>: Ubah PDF hasil scan menjadi dokumen Word yang bisa diedit.</li>
+            <li><strong>Gabung PDF</strong>: Menyatukan beberapa file menjadi satu dokumen.</li>
+            <li><strong>Pisah PDF</strong>: Membagi satu file PDF menjadi beberapa bagian.</li>
+            <li><strong>Kompres PDF</strong>: Memperkecil ukuran file PDF secara efisien.</li>
+            <li><strong>Buka Password PDF</strong>: Menghapus proteksi kata sandi.</li>
+            <li><strong>Tanda Tangan Digital (E-Sign)</strong>: Menambahkan tanda tangan ke dokumen PDF.</li>
+            <li><strong>PDF ke Gambar</strong>: Mengonversi halaman PDF ke format JPG atau PNG.</li>
+            <li><strong>Skala Abu-abu</strong>: Mengonversi PDF berwarna menjadi hitam-putih.</li>
+            <li><strong>Perbaiki PDF</strong>: Memulihkan struktur file PDF yang rusak.</li>
+            <li><strong>Ratakan PDF (Flatten)</strong>: Membuat form dan tanda tangan menjadi permanen.</li>
+            <li><strong>Ekstrak Gambar</strong>: Mengambil seluruh file gambar dari dalam PDF.</li>
+          </ul>
+      <footer style="text-align: center; padding: 4rem 2rem 2rem; color: var(--text-muted); font-size: 0.9rem; border-top: 1px solid var(--border); margin-top: 4rem;">
+        <div style="margin-bottom: 1rem; display: flex; justify-content: center; gap: 20px;">
+          <a href="#" data-modal-target="#about-modal" style="color: inherit; text-decoration: none;">Tentang</a>
+          <a href="#" data-modal-target="#privacy-modal" style="color: inherit; text-decoration: none;">Privasi</a>
+          <a href="#" data-modal-target="#contact-modal" style="color: inherit; text-decoration: none;">Hubungi</a>
+        </div>
+        <p>
+          Copyright &copy; <span id="current-year"></span> 
+          <a href="https://masandigital.com" target="_blank" style="color: var(--primary); font-weight: 600; text-decoration: none;">Mas Andy Digital</a>
+        </p>
+      </footer>
+      </main>
+    </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="about-modal" class="modal-overlay">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <h3>Tentang Kami</h3>
+        <p>
+          Mas Andy PDF Tools adalah sebuah platform online gratis yang
+          didedikasikan untuk menyediakan serangkaian alat bantu PDF yang cepat,
+          mudah digunakan, dan andal. Misi kami adalah menyederhanakan
+          pengelolaan dokumen digital bagi semua orang, mulai dari pelajar,
+          profesional, hingga pengguna biasa. Kami percaya bahwa setiap orang
+          harus memiliki akses ke alat yang efisien tanpa harus menginstal
+          perangkat lunak yang rumit. Semua proses dilakukan di browser Anda
+          untuk menjaga privasi file Anda.
+        </p>
+      </div>
+    </div>
+    <div id="contact-modal" class="modal-overlay">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <h3>Hubungi Kami</h3>
+        <p>
+          Kami senang mendengar masukan dari Anda! Jika Anda memiliki
+          pertanyaan, saran, atau laporan bug, jangan ragu untuk menghubungi
+          kami melalui email di: <strong>support@masandigital.com</strong>. Kami
+          berusaha untuk menanggapi semua pertanyaan secepat mungkin. Masukan
+          Anda sangat berharga untuk membantu kami meningkatkan layanan ini.
+        </p>
+      </div>
+    </div>
+    <div id="tos-modal" class="modal-overlay">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <h3>Ketentuan Layanan (TOS)</h3>
+        <p>
+          Dengan menggunakan Mas Andy PDF Tools, Anda setuju untuk tidak
+          menggunakan layanan ini untuk tujuan ilegal atau tidak sah. Anda tidak
+          boleh mengunggah materi yang dilindungi hak cipta tanpa izin, atau
+          file yang mengandung virus atau kode berbahaya lainnya. Kami berhak
+          untuk menangguhkan akses ke layanan kami kepada siapa pun yang
+          melanggar ketentuan ini. Layanan ini ditujukan untuk penggunaan
+          pribadi dan wajar.
+        </p>
+      </div>
+    </div>
+    <div id="privacy-modal" class="modal-overlay">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <h3>Kebijakan Privasi</h3>
+        <p>
+          Kami sangat menghargai privasi Anda. Semua file yang Anda unggah ke
+          Mas Andy PDF Tools diproses secara otomatis di sisi klien (browser
+          Anda) bila memungkinkan. Untuk proses yang lebih kompleks, file
+          diunggah ke server kami dan akan dihapus secara permanen dari server
+          kami dalam waktu satu jam setelah pemrosesan selesai. Kami tidak
+          mengakses, membagikan, atau menyimpan file Anda lebih lama dari yang
+          diperlukan untuk menyediakan layanan. Kami tidak mengumpulkan
+          informasi pribadi apa pun dari pengguna kami.
+        </p>
+      </div>
+    </div>
+
+    <!-- Pustaka Eksternal (Client-Side) -->
+    <script src="https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <!-- Tesseract.js (Untuk OCR PDF to Word) -->
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+
+    <!-- Script Kustom Kita -->
+    <script src="script.js"></script>
+
+  </body>
+</html>
